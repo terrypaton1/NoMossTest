@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - PointZone
+  - PlatformSide
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3878664635
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GameUI
+    uniqueID: 3871531629
+    locked: 0
+  - name: ShootUI
+    uniqueID: 3013354135
+    locked: 0
+  - name: Player
+    uniqueID: 3949048635
+    locked: 0
+  - name: UI
+    uniqueID: 865908089
+    locked: 0
