@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: 638690721734956575, guid: 1b9cdacbeac2645d5b497fe8d8d0077d,
         type: 3}
       propertyPath: rotationBounds.y
-      value: 35
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 638690721734956575, guid: 1b9cdacbeac2645d5b497fe8d8d0077d,
         type: 3}
