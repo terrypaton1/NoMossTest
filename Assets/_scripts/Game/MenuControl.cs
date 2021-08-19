@@ -180,7 +180,7 @@ public class MenuControl : MonoBehaviour
     }
 
     public void PrivacyPolicy(){
-        Application.OpenURL("http://studios.nomoss.co/privacy");
+        Application.OpenURL("https://studios.nomoss.co/privacy/");
     }
 
     public void MusicCredit(){
