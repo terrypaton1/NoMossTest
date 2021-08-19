@@ -31,7 +31,9 @@ public class AestheticGenerator : Singleton<AestheticGenerator>
         }
 
         float thisDistance = activePlayer.transform.position.x - lastLocation;
-        travelledDistance += thisDistance;
+        if (thisDistance > 0.0f){
+            travelledDistance += thisDistance;
+        }
 
         if(travelledDistance > currentCreationRange){
             GenerateAesthetic();
@@ -93,6 +95,7 @@ public class AestheticGenerator : Singleton<AestheticGenerator>
     public void SetActivePlayer(Player p){
         activePlayer = p;
         lastLocation = activePlayer.transform.position.x;
+        travelledDistance = 0;
     }
 
 }

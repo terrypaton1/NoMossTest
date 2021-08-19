@@ -267,6 +267,7 @@ public class GameController : Singleton<GameController>
         cameraController.SetTargetPlayer(activePlayer);
         chargeBar.SetActivePlayer(activePlayer);
         platformGenerator.SetActivePlayer(activePlayer);
+        aestheticGenerator.SetActivePlayer(activePlayer);
 
         if(aestheticGenerator != null){
             aestheticGenerator.SetActivePlayer(activePlayer);
